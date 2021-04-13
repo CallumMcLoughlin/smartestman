@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <hero-component hero-title="The Smartest Man in Christchurch" hero-subtitle="New Zealand"/>
+    <div class="container">
+      <image-component img-src="Smartest_Man_In_Christchurch.png" img-header="Smartest Man in Christchurch" img-text="Image of Smartest Man in Christchurch, New Zealand"/>
+      <tile-component/>
+    </div>
+    <footer-component/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ImageComponent from "@/components/ImageComponent";
+import HeroComponent from "@/components/HeroComponent";
+import TileComponent from "@/components/TileComponent";
+import FooterComponent from "@/components/FooterComponent";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FooterComponent,
+    TileComponent,
+    HeroComponent,
+    ImageComponent
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
