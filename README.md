@@ -1,1 +1,1 @@
-# Smartest Man in Christchurch
+# Smartest Man in New Zealand
