@@ -10,7 +10,6 @@
   "dependencies": {
     "buefy": "^0.9.6",
     "core-js": "^3.6.5",
-    "execa": "^1.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
