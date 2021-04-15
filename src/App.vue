@@ -1,8 +1,8 @@
 <template>
   <div>
-    <hero-component hero-title="The Smartest Man in New Zealand" hero-subtitle="Officially"/>
+    <hero-component hero-title="The Smartest Man in New Zealand" hero-subtitle="Also The Smartest Man in Christchurch"/>
     <div class="container">
-      <image-component img-src="Smartest_Man_In_New_Zealand.png" img-header="Smartest Man in New Zealand" img-text="Image of Smartest Man in New Zealand, Callum McLoughlin"/>
+      <image-component img-src="Smartest_Man_In_New_Zealand.png" img-header="Smartest Man in New Zealand" img-text="Image of Smartest Man in New Zealand"/>
       <tile-component/>
     </div>
     <footer-component/>
